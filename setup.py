@@ -9,12 +9,12 @@ except Exception:
 
 setuptools.setup(
     name="HealthCheckIOAPI",
-    version="1.0.0",
+    version="1.0.1",
     author="Felix Hernandez",
     description="Simple Python Tooling to interact with Healthcheck.io projects.",
     packages=["healthcheckio"],
     install_requires=["requests"],
-    url="https://github.com/basegodfelix/healthcheckioapi"
+    url="https://github.com/basegodfelix/healthcheckioapi",
     long_description = long_description,
     long_description_context_type = 'text/markdown',
     license="MIT"
