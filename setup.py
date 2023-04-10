@@ -10,13 +10,13 @@ def read():
 
 setuptools.setup(
     name="HealthCheckIOAPI",
-    version="1.0.2",
+    version="1.0.3",
     author="Felix Hernandez",
     description="Simple Python Tooling to interact with Healthcheck.io projects.",
     packages=["healthcheckio"],
     install_requires=["requests"],
     url="https://github.com/basegodfelix/healthcheckioapi",
     long_description = read(),
-    long_description_context_type = 'text/markdown',
+    long_description_content_type = 'text/markdown',
     license="MIT"
 )
